@@ -99,7 +99,7 @@ nav a:hover {
         opacity: 1;
     }
 }
-
+/* shows the text on the bottom left and right of animation */
 @keyframes hideText {
     0% {
         opacity: 1;
@@ -117,7 +117,7 @@ nav a:hover {
         opacity: 0;
     }
 }
-
+/* hides the text and shows another number in the same place */
 img#redBall {
     animation: moveRed 5s linear infinite;
 }
@@ -141,3 +141,4 @@ div#redSpeed2 {
 div#blueSpeed2 {
     animation: showText 5s linear infinite;
 }
+/* makes the balls loop so the animation never stops */
